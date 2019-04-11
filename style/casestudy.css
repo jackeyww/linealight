@@ -1,0 +1,187 @@
+body{
+    background: #202020;
+}
+.bg{
+    padding-top: 80px;
+    height: 380px;
+}
+.bg div{
+    height: 100%;
+    background: url(http://resources.jsmo.xin/templates/upload/9628/201807/1531122570516.jpg) no-repeat;
+    background-size: cover;
+}
+.contentWrap{
+    width: 100%;
+    background: #202020;
+}
+.locationWrap{
+    width: 1440px;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 150px;
+    line-height: 200px;
+}
+.locationWrap .location{
+    color: #666;
+    font-size: 12px;
+}
+.locationWrap .location a{
+    color: #999;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.locationWrap .location .now{
+    color: #f2cb62;
+}
+.locationWrap .location a:hover{
+    color: #f2cb62;
+}
+
+.proListWrap{
+    width: 1440px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.proListWrap .proList{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.proListWrap .proList li{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.proListWrap .proList li .image{
+    width: 48%;
+    height: 180px;
+    position: relative;
+    min-width: 280px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proListWrap .proList li .image a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.proListWrap .proList li .image img{
+    /* max-width: 100%; */
+    height: 100%;
+    vertical-align: middle;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.proListWrap .proList li .word{
+    position: relative;
+    width: 45%;
+    min-width: 280px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.proListWrap .proList li .word a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.proListWrap .proList li .word h4{
+    color: #f0f0f0;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.proListWrap .proList li .word span{
+    color: #777;
+    font-size: 13px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.proListWrap .proList li .word p{
+    color: #999;
+    height: 48px;
+    overflow: hidden;
+    line-height: 22px;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.proListWrap .proList li .word .more{
+    font-size: 14px;
+    color: #999;
+    position: relative;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.proListWrap .proList li .word .more::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -15px;
+    top: 5px;
+    border-radius: 5px;
+    border-left: 6px solid #f0f0f0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.proListWrap .proList li:hover .image img{
+    transform: scale(1.1);
+}
+.proListWrap .proList li:hover .word h4{
+    color: #f2cb62;
+}
+.proListWrap .proList li:hover .word span,.proListWrap .proList li:hover .word p{
+    color: #888;
+}
+.proListWrap .proList li:hover .word .more{
+    margin-left: 15px;
+    color: #f0f0f0;
+}
+.proListWrap .page{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+.proListWrap .page a{
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #f0f0f0;
+    background: #f2cb62;
+}

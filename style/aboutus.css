@@ -1,0 +1,66 @@
+body{
+    background: #202020;
+}
+.wrapAll{
+    width: 1440px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.wrapAll .contentWrap{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.wrapAll .contentWrap .title{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.wrapAll .contentWrap .title h4{
+    font-size: 24px;
+    color: #f0f0f0;
+    font-weight: 100;
+}
+.wrapAll .contentWrap .title p{
+    font-size: 14px;
+    color: #888;
+}
+.contentWrap .content .part1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.contentWrap .content .part1 .image{
+    width: 35%;
+    cursor: pointer;
+}
+.contentWrap .content .part1 .image img{
+    width: 100%;
+    vertical-align: middle;
+}
+.contentWrap .content .part1 .descrip{
+    width: 62%;
+}
+.contentWrap .content .part1 .descrip p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+}
+.contentWrap .content .part2{
+   margin-top: 40px;
+   padding-bottom: 45px;
+   border-bottom: 1px solid rgba(170,170,170,.2);
+}
+.contentWrap .content .part2 p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+} 
+.contentWrap .content .part3{
+    padding-top: 45px;
+}
+.contentWrap .content .part3 p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+}

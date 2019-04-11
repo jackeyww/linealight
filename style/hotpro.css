@@ -1,0 +1,158 @@
+body{
+    background: #202020;
+}
+.bg{
+    padding-top: 80px;
+    height: 380px;
+}
+.bg div{
+    height: 100%;
+    background: url(http://resources.jsmo.xin/templates/upload/9628/201806/1530168311462.jpg) no-repeat;
+    background-size: cover;
+}
+.contentWrap{
+    width: 100%;
+    background: #202020;
+}
+.locationWrap{
+    width: 1440px;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 150px;
+    line-height: 200px;
+}
+.locationWrap .location{
+    color: #666;
+    font-size: 12px;
+}
+.locationWrap .location a{
+    color: #999;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.locationWrap .location .now{
+    color: #f2cb62;
+}
+.locationWrap .location a:hover{
+    color: #f2cb62;
+}
+.proListWrap{
+    width: 1440px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.proListWrap .proList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.proListWrap .proList li{
+    width: 30%;
+    position: relative;
+    margin-bottom: 60px;
+    -webkit-transition: all .3s;
+       -moz-transition: all .3s;
+        -ms-transition: all .3s;
+         -o-transition: all .3s;
+            transition: all .3s;
+}
+
+.proListWrap .proList li a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.proListWrap .proList li .image img{
+    width: 100%;
+    vertical-align:middle;
+}
+.proListWrap .proList li .descrip{
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.proListWrap .proList li .descrip:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,.08);
+    top: 0;
+    -webkit-transition: all .25s;
+       -moz-transition: all .25s;
+        -ms-transition: all .25s;
+         -o-transition: all .25s;
+            transition: all .25s;
+}
+.proListWrap .proList li .descrip .title{
+    color:#fff;
+    font-size: 18px;
+    font-weight: 100;
+    height: 80px;
+    line-height: 100px;
+    -webkit-transition: all .25s;
+       -moz-transition: all .25s;
+        -ms-transition: all .25s;
+         -o-transition: all .25s;
+            transition: all .25s;
+}
+.proListWrap .proList li .descrip p{
+    line-height: 25px;
+    font-size: 14px;
+    color: rgba(255,255,255,.39);
+    height: 55px;
+    overflow: hidden;
+}
+.proListWrap .proList li .descrip .more{
+    color: #999;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+    -webkit-transition: all .25s;
+       -moz-transition: all .25s;
+        -ms-transition: all .25s;
+         -o-transition: all .25s;
+            transition: all .25s;
+}
+.proListWrap .proList li .descrip .more:before{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 6px solid #f0f0f0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    top: 5px;
+    left: -18px;
+}
+.proListWrap .proList li:hover{
+    transform: translateY(-20px);
+}
+.proListWrap .proList li:hover .descrip:before{
+    background: #f2cb62;
+    height: 2px;
+}
+.proListWrap .proList li:hover .descrip .title{
+    color: #f2cb62;
+}
+.proListWrap .proList li:hover .descrip .more{
+    color: #fff;
+}
+.proListWrap .page{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+.proListWrap .page a{
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    color: #f0f0f0;
+    background: #f2cb62;
+}

@@ -1,0 +1,194 @@
+*{margin:0px;padding: 0px;box-sizing: border-box;}
+li{list-style: none;float: left;}
+a{display: inline-block;text-decoration: none;}
+i,span{display: inline-block}
+div:focus{outline: none;}
+#header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 99;
+    -webkit-transition: all .35s ;
+       -moz-transition: all .35s ;
+        -ms-transition: all .35s ;
+         -o-transition: all .35s ;
+            transition: all .35s ;
+}
+.header-gray{
+    background: #202020;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 99;
+    -webkit-transition: all .35s ;
+       -moz-transition: all .35s ;
+        -ms-transition: all .35s ;
+         -o-transition: all .35s ;
+            transition: all .35s ;
+}
+.headMenuWrap{
+    min-width: 1000px;
+    max-width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.headMenuWrap .image{
+    height: 55%;
+    position: relative;
+}
+.headMenuWrap .image a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.headMenuWrap .image img{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.headMenu{
+    display: inline-block;
+    height: 100%;
+}
+.headMenu li{
+    height: 100%;
+    position: relative;
+}
+.headMenu li a{
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 80px;
+    color: #999;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+    box-sizing: border-box;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.headMenu li .active{
+    color:#f2cb62;
+    border-bottom: 2px solid #f2cb62;
+}
+.headMenu .item{
+    position: absolute;
+    background: #fff;
+    border-top: 2px solid #f2cb62;
+    top: calc(100% - 2px);
+    display: none;
+}
+.headMenu .item li{
+    width: 180px;
+    height: 46px;
+}
+.headMenu .item li a{
+    width: 100%;
+    height: 100%;
+    line-height: 46px;
+}
+.headMenu li a:hover{
+    color:#f2cb62;
+    border-bottom: 2px solid #f2cb62;
+}
+.headMenu .item li a:hover{
+    border: none;
+    background: #f2cb62;
+    color: #fff;
+}
+
+body::-webkit-scrollbar {width: 5px;}
+/* 滑块 */
+body::-webkit-scrollbar-thumb{background: #444;}
+/* 轨道 */
+body::-webkit-scrollbar-track {border-radius: 0;background: #101012;}
+body::-webkit-scrollbar-thumb:hover{background: #f2cb62;}
+
+body::-moz-scrollbar {width: 5px;}
+/* 滑块 */
+body::-moz-scrollbar-thumb{background: #444;}
+/* 轨道 */
+body::-moz-scrollbar-track {border-radius: 0;background: #101012;}
+body::-moz-scrollbar-thumb:hover{background: #f2cb62;}
+
+body::-o-scrollbar {width: 5px;}
+/* 滑块 */
+body::-o-scrollbar-thumb{background: #444;}
+/* 轨道 */
+body::-o-scrollbar-track {border-radius: 0;background: #101012;}
+body::-o-scrollbar-thumb:hover{background: #f2cb62;}
+
+.footer{
+    width: 100%;
+    background: #1b1b1b;
+}
+.footer div{
+    width: 1440px;
+    max-width: 95%;
+    margin: 0px auto;
+    height: 45px;
+    line-height: 45px;
+}
+.footer div p{
+    font-size:12px;
+    color: #666; 
+}
+
+.shares{
+    position: fixed;
+    right: 0;
+    bottom: 63px;
+    width: 40px;
+    height: 160px;
+    z-index: 999;
+}
+.shares .iconfont{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: rgb(56, 55, 55);
+    color: rgb(153, 153, 153);
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    box-sizing: border-box;
+    border-top: none;
+}
+
+.icon-comments{
+    top: 0;
+    border-top: 1px solid rgb(66, 66, 66);
+    font-size: 14px !important;
+    color: #f0f0f0 !important;
+}
+.shares .bdsharebuttonbox{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    font-size: 18px !important;
+    top: 40px;
+}
+.bds_tsina{
+    text-indent: 0px !important;
+    margin: 0px !important;
+}
+.icon-mobile{
+    top: 80px;
+}
+.icon-Angle-up{
+    top: 120px;
+    display: none;
+}
+.shares .iconfont:hover{
+    background: #f2cb62;
+    color: #fff;
+    opacity: 1;
+}
+.shares .bdsharebuttonbox .iconfont:hover {
+    color: #fff;
+}
